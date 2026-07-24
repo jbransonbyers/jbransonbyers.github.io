@@ -11,3 +11,8 @@ end
 
 gem 'github-pages'
 gem 'connection_pool', '2.5.0'
+
+# Required on Ruby 3.4+/4.x (no longer default gems); needed by github-pages' Jekyll 3.9
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
